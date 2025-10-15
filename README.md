@@ -2,31 +2,19 @@ Hello Fillip!
 
 I have created a simple website and js code to manipulate the content. 
 
-First, I have created a button, and a specific ID name called favButton, 
+First, I have created a button, and a specific ID name called favButton
 
-<!-- const favButton = document.getElementById('actionButton');
-const message = document.getElementById('message');
-const list = document.getElementById('itemList');
+get.ElementById is the connector of which script shall run with the element collected via HTML file. 
 
-const items = ["Raindrops on roses", "Whiskers on kittens", "Bright copper kettles"];
+I had to you list or li as I wished to use two buttons. 
 
-favButton.addEventListener('click', () => {
-    message.textContent = "Magic happens when you are brave";
+I have used arrays to keep the list of things will come up once the button will be pushed. 
+And arrow function to make the code cleaner and faster. 
+Finally, wanted to change both messages once the script ran. A true manipulation magic. 
+Array function is being recalled or return with list items. I wished to make each visible, so I used forEach. 
 
-    list.innerHTML = "All of my favorites things?";
-
-    items.forEach(item => {
-        const li = document.createElement('li');
-        li.textContent = item;
-        list.appendChild(li);
-    });
-});
+Const is defined in case I wish to use the array elements later and not only consol log them once. 
 
 
-const button = document.getElementById("showTime");
-const output = document.getElementById("timeDisplay");
+And finally, the second button displays the local time, that is asks from the users local system. Returns with that information and displays when the button is clicked, and updates to the second.  
 
-button.addEventListener("click", () => {
-    const now = new Date();
-    output.textContent = "Current time: " + now.toLocaleTimeString();
-}); -->
